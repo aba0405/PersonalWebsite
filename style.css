@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color:dimgray
+}
+.purple-heighlight{
+    color: #ff4177;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image:url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg,#ff4177,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.Biography-Area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.latestWork{
+    text-align: center;
+}
+.Experiece-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.column img{
+    height: 300px;
+}
+.Feedback-Area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 100px;
+    border:3px;
+    border-style:solid;
+    text-align: center;
+    border-color:#ff4177;
+    background-image:linear-gradient(45deg,#ff4177,tomato);  
+    color: white; 
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
